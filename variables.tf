@@ -1,5 +1,5 @@
 variable rpName {
   type        = string
-  default     = "rp_demo2"
+  default     = "rp_demo1"
   description = "testing var"
 }
