@@ -42,7 +42,7 @@ try:
 except:
     sys.exit(1)
 os.chdir("pattern/"+pattern)
-initCommand = "terraform init -backend-config=\"key\"=\""+rname+"\""
+initCommand = "terraform init -backend-config=\"key="+rname+"\""
 applyCommand = "terraform apply -var-file=..\\..\\tfvars\\"+resourceName+".tfvars --auto-approve"
 if resourceAction == "Destroy":
     print("Runnign command: " +initCommand)
