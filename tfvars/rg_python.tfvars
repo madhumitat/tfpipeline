@@ -1,1 +1,0 @@
-rpName = "rg_python"
