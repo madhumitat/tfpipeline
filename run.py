@@ -49,10 +49,6 @@ if resourceAction == "Destroy":
     os.system(initCommand)
     os.system("terraform destroy  --auto-approve")
 else:
-    try:
-        os.system("terraform  workspace new " + rname)
-    except:
-        print("Instance already exists. Please choose a different instance name")
     print("Runnign command: " +initCommand)
     os.system(initCommand)
     os.system(applyCommand)
