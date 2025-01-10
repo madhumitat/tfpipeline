@@ -1,0 +1,5 @@
+{
+    "resourceName":"rg_mt",
+    "patternName":"azure_vm_lin",
+    "resourceAction":"Create"
+}
