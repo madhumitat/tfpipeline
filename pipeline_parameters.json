@@ -1,5 +1,5 @@
 {
     "resourceName":"rg_mt",
     "patternName":"azure_rg",
-    "resourceAction":"Create"
+    "resourceAction":"Destroy"
 }
