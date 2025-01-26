@@ -1,5 +1,5 @@
 {
-    "resourceName":"rg_mt",
-    "patternName":"azure_rg",
+    "resourceName":"vm_lin_mt",
+    "patternName":"azure_vm_lin",
     "resourceAction":"Destroy"
 }
